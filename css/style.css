@@ -237,6 +237,7 @@ body {
     }
     .menu-button-active {
         height: 0;
+        z-index: 99;
     }
     .menu-button-active::before {
         transform: rotate(45deg);
@@ -255,6 +256,7 @@ body {
         top: 0;
         background: #9D2929;
         padding-bottom: 40px;
+        z-index: 99;
     }
     .header-active {
         display: flex;
